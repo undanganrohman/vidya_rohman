@@ -44,61 +44,61 @@
 	<script src="js/modernizr-2.6.2.min.js"></script>
 
 	<!-- Tambahkan di dalam <head> -->
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-</head>
-<body>
-	<!-- Tambahkan sebelum tag </body> -->
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	</head>
+	<body>
+		<!-- Tambahkan sebelum tag </body> -->
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-	<audio id="weddingMusic" loop>
-		<source src="lagu/waltz.mp3" type="audio/mpeg">
-		</audio>
+		<audio id="weddingMusic" loop>
+			<source src="lagu/waltz.mp3" type="audio/mpeg">
+			</audio>
 
 
-		<div class="fh5co-loader"></div>
+			<div class="fh5co-loader"></div>
 
-		<div id="page">
-			<nav class="fh5co-nav" role="navigation">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-2">
-							<div id="fh5co-logo"><a href="index.html">Wedding<strong>.</strong></a></div>
+			<div id="page">
+				<nav class="fh5co-nav" role="navigation">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-2">
+								<div id="fh5co-logo"><a href="index.html">Wedding<strong>.</strong></a></div>
+							</div>
+							<div class="col-xs-10 text-right menu-1">
+								<ul>
+									<li class="active"><a href="index.html">Beranda</a></li>
+									<li><a href="#pembuka">Pembuka</a></li>
+									<li><a href="#waktu_acara">Acara</a></li>
+									<li><a href="#cerita">Cerita</a></li>
+									<li><a href="#gallery">Gallery</a></li>
+									<li><a href="#wedding_gift">Gift</a></li>
+									<li><a href="#testimonial">Ucapan</a></li>
+								</ul>
+							</div>
 						</div>
-						<div class="col-xs-10 text-right menu-1">
-							<ul>
-								<li class="active"><a href="index.html">Beranda</a></li>
-								<li><a href="#pembuka">Pembuka</a></li>
-								<li><a href="#waktu_acara">Acara</a></li>
-								<li><a href="#cerita">Cerita</a></li>
-								<li><a href="#gallery">Gallery</a></li>
-								<li><a href="#wedding_gift">Gift</a></li>
-								<li><a href="#testimonial">Ucapan</a></li>
-							</ul>
-						</div>
+
 					</div>
+				</nav>
 
-				</div>
-			</nav>
-
-			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/sampul.jpg); " data-stellar-background-ratio="0.5">
-				<div class="overlay"></div>
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2 text-center">
-							<div class="display-t">
-								<div class="display-tc" data-aos="fade-in">
-									<h2>The Wedding Of</h2>
-									<h1>Vidya &amp; Rohman</h1>
-									<p style="color:#fff;">Kepada Yth.<br><span id="guestName">Tamu Undangan</span></p>
-									<p><a href="#" id="openInvitation" class="btn btn-default btn-sm" style="color:#000000;">Buka Undangan</a></p>
+				<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/sampul.jpg); " data-stellar-background-ratio="0.5">
+					<div class="overlay"></div>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 text-center">
+								<div class="display-t">
+									<div class="display-tc" data-aos="fade-in">
+										<h2>The Wedding Of</h2>
+										<h1>Vidya &amp; Rohman</h1>
+										<p style="color:#fff;">Kepada Yth.<br><span id="guestName">Tamu Undangan</span></p>
+										<p><a href="#" id="openInvitation" class="btn btn-default btn-sm" style="color:#000000;">Buka Undangan</a></p>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-			</header>
+				</header>
 
-			<script>
+				<script>
 			// Fungsi ambil parameter dari URL
 			function getQueryParam(param) {
 				const urlParams = new URLSearchParams(window.location.search);
@@ -189,7 +189,7 @@
 												Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud menyelenggarakan
 												akad nikah yang akan menjadi awal perjalanan suci kami dalam membentuk
 												rumah tangga yang sakinah, mawaddah, dan warahmah.<br>
-												<a disabled href="https://maps.app.goo.gl/Cc2M5ZLXMabtnU8G8" target="_blank" style="color:rgba(128, 128, 128, 0.7); pointer-events:none; cursor:default; text-decoration:none;">Link Google Map</a>
+													<a href="https://maps.app.goo.gl/Cc2M5ZLXMabtnU8G8" target="_blank" style="color:#00FFFF;">Link Google Map</a>
 											</p>
 										</div>
 									</div>
@@ -701,11 +701,11 @@
 </script>
 
 <script>
-  AOS.init({
+	AOS.init({
     duration: 3000, // durasi animasi (ms)
     once: true, // animasi hanya jalan sekali
     offset: 100, // jarak dari bawah viewport sebelum mulai animasi
-  });
+});
 </script>
 
 </body>
