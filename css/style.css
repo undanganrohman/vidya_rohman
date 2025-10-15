@@ -318,7 +318,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    height: 810px;
+    height: 850px;
+    background-size: contain;
     background-size: 1300px; /* lebar penuh, tinggi menyesuaikan proporsi */
     background-position: center top;
     background-repeat: no-repeat;
