@@ -45,6 +45,36 @@
 
 	<!-- Tambahkan di dalam <head> -->
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+		<style>
+			/* DEFAULT: Desktop */
+			.img-groom {
+				object-fit: cover;
+				width: 100%;
+				object-position: center -30px;
+				border-radius: 15px;
+				box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+			}
+
+			.img-bride {
+				object-fit: cover;
+				width: 100%;
+				object-position: center;
+				border-radius: 15px;
+				box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+			}
+
+			/* MOBILE: geser ke atas */
+			@media (max-width: 768px) {
+				.img-groom {
+					object-position: center -45px;
+				}
+				.img-bride {
+					object-position: center -45px;
+				}
+			}
+		</style>
+
 	</head>
 	<body>
 		<!-- Tambahkan sebelum tag </body> -->
@@ -129,7 +159,7 @@
 					<div class="couple-wrap">
 						<div class="couple-half" data-aos="fade-right">
 							<div class="groom">
-								<img src="images/3_ - Copy.jpg" alt="groom" class="img-responsive" style="border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
+								<img src="images/3_.jpg" alt="groom" class="img-responsive img-groom">
 							</div>
 							<div class="desc-groom">
 								<h3 style="color: #6b4226;">Vidya Ayu Eka Maulidina, S.Kom</h3>
@@ -143,7 +173,7 @@
 
 						<div class="couple-half" data-aos="fade-left">
 							<div class="bride">
-								<img src="images/1_ - Copy.jpg" alt="bride" class="img-responsive" style="border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
+								<img src="images/1_.jpg" alt="groom" class="img-responsive img-bride">
 							</div>
 							<div class="desc-bride">
 								<h3 style="color: #6b4226;">Moch. Abdul Rohman, S.Kom</h3>
